@@ -6,3 +6,8 @@ npm run sample-tests
 npm run main-tests
 unit.xml
 File to hide> Both files in main_test
+
+To put wait in any test case:
+await new Promise(r => setTimeout(r, 20000));
+means 20 seconds
+change in package.json also

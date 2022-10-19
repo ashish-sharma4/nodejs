@@ -1,5 +1,8 @@
 import { app } from "./app.js";
 const port = process.env.PORT || 9090;
-app.listen(port, () => {
-  console.log("Sever is Up");
-});
+const hostname = '0.0.0.0';
+
+
+app.listen(port, hostname, () => {
+  console.log(`Server running at http://${hostname}:${port}/`);
+});;

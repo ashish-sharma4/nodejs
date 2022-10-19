@@ -1,0 +1,8 @@
+https://github.com/pintuojha/nodejs.git
+Long text >>> https://docs.google.com/document/d/18ggxHPvzWJIOoSRvPXln_TpFcmLz4dhE/edit
+
+Command and path
+npm run sample-tests
+npm run main-tests
+unit.xml
+File to hide> Both files in main_test

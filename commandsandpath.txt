@@ -7,6 +7,12 @@ npm run main-tests
 unit.xml
 File to hide> Both files in main_test
 
+
+Command to pass the test cases:
+bash-5.0$ cp /home/tg-user/CandidateCode/answers/controllers-answer/* /home/tg-user/CandidateCode/controllers/
+bash-5.0$ cp /home/tg-user/CandidateCode/answers/middlewares-answer/* /home/tg-user/CandidateCode/middlewares/
+bash-5.0$ cp /home/tg-user/CandidateCode/answers/routes-answer/* /home/tg-user/CandidateCode/routes/
+
 To put wait in any test case:
 await new Promise(r => setTimeout(r, 20000));
 means 20 seconds
